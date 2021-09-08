@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #a78bfa;
+}
+button {
+  cursor: pointer;
+  padding: 0.7rem;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  border-radius: 1rem;
+  border: none;
+}
